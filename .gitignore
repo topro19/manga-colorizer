@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Caches and logs
+logs/
+vlm_cache/
+scratch_flux/
+webui_scratch/
+*.log
+
+# Large Model weights (must be downloaded separately)
+models/
+*.gguf
+*.onnx
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Images (Strictly ignore all generated, input, output, and test images)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tiff
+input/
+output/
+downloads/
+munfa/
+
+# Scratch & Scraper dumps
+*.html
+*.json
+!color_memory.json
